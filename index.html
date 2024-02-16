@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"> 
+    <title>Fajr cafe</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <img src="images/logo.png">
+            <div class="nav-links-box">
+                <a href="#" class="nav-links nav-links-margin">Главная</a>
+                <a href="#" class="nav-links nav-links-margin">Меню</a>
+                <a href="#" class="nav-links nav-links-margin">Карта</a>
+                <a href="#" class="nav-links">Контакты</a>
+            </div>
+            <div class="insta_links">
+                <img src="images/instagram.svg" class="insta_img">
+                <a href="#" class="insta_link">@cafe_fajr</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="present_block">
+         <div class="present_block-content">
+            <div class="present_block-text">
+                <h1 class="present_block-h1">Cafe Fajr</h1>
+                <h2 class="present_block-h2">Исскуство<br>в каждом кусочке стейка</h2>
+            </div>
+            <img src="images/steake.png" class="present-image">
+         </div>   
+    </div>
+
+    <div class="menu_block">
+        <img src="images/line.png">
+        <h1 class="menu_block-h1">Наше меню</h1>
+
+        <div class="page">
+            <div class="menu_links">
+                <button class="btn underline" id="submit_1">Мангал</button>
+                <button class="btn" id="submit_2">Гарниры</button>
+                <button class="btn" id="submit_3">Соусы</button>
+                <button class="btn" id="submit_4">Чай</button>
+                <button class="btn d-none" id="submit_5">Напитки</button>
+                <button class="btn d-none" id="submit_6">Коктейли</button>
+                <button class="btn d-none" id="submit_7">Завтраки</button>
+                <button class="btn d-none" id="submit_8">Салаты</button>
+                <button class="btn d-none" id="submit_9">Вайнахская кухня</button>
+                <button class="btn d-none" id="submit_10">Основные блюда</button>
+                <button class="btn d-none" id="submit_11">Пасты</button>
+                <button class="btn d-none" id="submit_12">Супы</button><br>
+                <div>
+                <button class="menu_links-button show_more">Показать ещё</button>
+                </div>
+            </div>
+            <div class="cards cards_number_1">
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Стейк Томагавк</span>
+                    <span class="price price-margin_2">850 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Стейк Рибай</span>
+                    <span class="price price-margin_1">750 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Стейк Филь (миньон)</span>
+                    <span class="price price-margin_2">650 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Стейк из сёмги</span>
+                    <span class="price price-margin_1">590 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Дорадо</span>
+                    <span class="price price-margin_1">600 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Шашлык из баранины</span>
+                    <span class="price price-margin_2">500 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Антрекот из баранины</span>
+                    <span class="price price-margin_2">570 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Шашлык из курицы</span>
+                    <span class="price price-margin_2">310 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_9">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Говяжье ребро су-вид</span>
+                    <span class="price price-margin_1">460 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <button class="show-more_1">gjrfpfon</button>
+            </div>
+
+            <div class="cards cards_number_2 d-none">
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Рис</span>
+                    <span class="price price-margin_1">160 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Картофельное пюре</span>
+                    <span class="price price-margin_2">150 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Гречка</span>
+                    <span class="price price-margin_1">150 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Картоша фри</span>
+                    <span class="price price-margin_1">150 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Картошка по деревенски</span>
+                    <span class="price price-margin_1">150 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+            </div>
+
+            <div class="cards cards_number_3 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Имбирный</span>
+                    <span class="price price-margin_1">70 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Сырный</span>
+                    <span class="price price-margin_1">70 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Красный</span>
+                    <span class="price price-margin_1">70 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Острый</span>
+                    <span class="price price-margin_1">70 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Белый "Тартар"</span>
+                    <span class="price price-margin_2">70 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="cards cards_number_4 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Чёрный чай</span>
+                    <span class="price price-margin_1">250 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Таёжный сбор</span>
+                    <span class="price price-margin_1">250 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">1001 ночь</span>
+                    <span class="price price-margin_1">270 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Веницианская ночь</span>
+                    <span class="price price-margin_2">260 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Зелёный</span>
+                    <span class="price price-margin_1">250 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Малиново- имбирный</span>
+                    <span class="price price-margin_2">280 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Фруктовый</span>
+                    <span class="price price-margin_1">290 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="cards cards_number_5 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Махито классический</span>
+                    <span class="price price-margin_2">200/500 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Махито клубничный</span>
+                    <span class="price price-margin_2">200/500 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Лимонад ананасовый</span>
+                    <span class="price price-margin_2">200/500 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Лимонад цитрусовый</span>
+                    <span class="price price-margin_2">200/500 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Манго-маракуйя</span>
+                    <span class="price price-margin_2">200/500 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Голубая лагуна</span>
+                    <span class="price price-margin_1">200/500 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="cards cards_number_6 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Шоколадный</span>
+                    <span class="price price-margin_1">200 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Клубничный</span>
+                    <span class="price price-margin_1">200 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Банановый</span>
+                    <span class="price price-margin_1">200 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Ванильный</span>
+                    <span class="price price-margin_1">200 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Сникерс</span>
+                    <span class="price price-margin_1">200 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Баунти</span>
+                    <span class="price price-margin_1">280 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="cards cards_number_7 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Вайнахский завтрак</span>
+                    <span class="price price-margin_2">320 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Английский завтрак</span>
+                    <span class="price price-margin_2">350 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Брускетта с лососем</span>
+                    <span class="price price-margin_2">310 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Брускетта с перцем</span>
+                    <span class="price price-margin_2">260 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Блины классические</span>
+                    <span class="price price-margin_2">180 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Блины с лососем</span>
+                    <span class="price price-margin_2">320 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Симит с лососем</span>
+                    <span class="price price-margin_2">180 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Симит с индейкой</span>
+                    <span class="price price-margin_2">320 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_9">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Яйцо пашот</span>
+                    <span class="price price-margin_1">240 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Яичница глазунья</span>
+                    <span class="price price-margin_2">180 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Сырники</span>
+                    <span class="price price-margin_1">240 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="cards cards_number_8 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Цезарь с креветками</span>
+                    <span class="price price-margin_2">460 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Цезарь с курицей</span>
+                    <span class="price price-margin_2">390 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Греческий</span>
+                    <span class="price price-margin_1">360 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Хрустящий баклажан</span>
+                    <span class="price price-margin_2">340 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Капрезе</span>
+                    <span class="price price-margin_1">360 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Овощная нарезка</span>
+                    <span class="price price-margin_2">300 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Салат "Боул"</span>
+                    <span class="price price-margin_1">440 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Нежный</span>
+                    <span class="price price-margin_1">260 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_9">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">"FAJR"</span>
+                    <span class="price price-margin_1">460 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="cards cards_number_9 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Мясо с галушками</span>
+                    <span class="price price-margin_2">560 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Сушёное мясо</span>
+                    <span class="price price-margin_1">610 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Курица с галушками</span>
+                    <span class="price price-margin_2">480 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Курзе с мясом</span>
+                    <span class="price price-margin_1">320 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Вареники с творогом</span>
+                    <span class="price price-margin_2">240 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Вареники с картофелем</span>
+                    <span class="price price-margin_2">210 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">ЧIапилг с творогом</span>
+                    <span class="price price-margin_2">160 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">ЧIапилг с картофелем</span>
+                    <span class="price price-margin_2">130 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_9">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Хингал с тыквой</span>
+                    <span class="price price-margin_2">150 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Сискал къодар</span>
+                    <span class="price price-margin_1">450 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="cards cards_number_10 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Грудинка по арабски</span>
+                    <span class="price price-margin_2">350 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Бефстроганов</span>
+                    <span class="price price-margin_1">390 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Мято по-тайски</span>
+                    <span class="price price-margin_2">440 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Лагман</span>
+                    <span class="price price-margin_1">320 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Сливочное филе курицы</span>
+                    <span class="price price-margin_2">410 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Сёмга в икорном соусе</span>
+                    <span class="price price-margin_2">410 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Филе в соусе терияки</span>
+                    <span class="price price-margin_2">390 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Жаркое по-домашнему</span>
+                    <span class="price price-margin_2">360 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_9">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Ребро говядины</span>
+                    <span class="price price-margin_2">480 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Галушки в соусе том-ям</span>
+                    <span class="price price-margin_2">370 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Грибное филе курицы</span>
+                    <span class="price price-margin_2">360 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Котлеты по киевски</span>
+                    <span class="price price-margin_2">240 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="cards cards_number_11 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Вок терияки</span>
+                    <span class="price price-margin_1">310 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Сливочный фетучини</span>
+                    <span class="price price-margin_2">330 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Кунжутовый фетучини</span>
+                    <span class="price price-margin_2">340 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Морской фетучини</span>
+                    <span class="price price-margin_2">320 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="cards cards_number_12 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Том-ям</span>
+                    <span class="price price-margin_1">510 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Грибной суп-пюре</span>
+                    <span class="price price-margin_2">230 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Чечевичный</span>
+                    <span class="price price-margin_1">180 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>  
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Куриный</span>
+                    <span class="price price-margin_1">210 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Уха по-царски</span>
+                    <span class="price price-margin_2">470 р</span>
+                    <button class="card-button">Подробнее</button>
+                </div>
+            </div>
+        </div>
+        <img src="images/line.png">
+    </div>
+
+    <div class="map_block">
+            <div class="map-block_content">
+                <img src="images/line.png">
+                <h1 class="map-h1">Карта</h1>
+                <a href="#" class="map-link">Г. Назрань. Проспект Базоркина 116</a>
+                <a href="#" class="map"><img src="images/map.png" class="map-img"></a>
+                <span class="map-info">!  Нажмите на карту, чтобы открыть google maps</span>
+                <img src="images/line.png">
+            </div>
+    </div>
+
+    <script src="script/index.js"></script>
+    <script src="script/links.js"></script>
+    <script src="script/cards.js"></script>
+</body>
+</html>

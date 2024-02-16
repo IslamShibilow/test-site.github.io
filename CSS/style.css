@@ -1,0 +1,338 @@
+.d-none{
+    display: none;
+}
+
+.cards-d-none{
+    display: none;
+}
+
+
+
+.body{
+    background-color: #545454;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 0 #fff inset, 0px -10px 0 #fff inset;
+    position: fixed;
+    background-color: #1D1D1D;
+    margin: 0px;
+    z-index: 5;
+}
+
+.nav{
+    max-width: 1619px;
+    height: 100px;
+    position: relative; top: 5px;
+    margin: 0%;
+    margin-left: auto; margin-right: auto;
+}
+
+.nav>img{
+    display: inline-block;
+    width: 55px;
+}
+
+.nav-links-box{
+    display: block;
+    width: 814px;
+    margin-top: -50px;
+    margin-left: auto; margin-right: auto;
+}
+
+.nav-links{
+    color: white;
+    font-size: 36px;
+    font-family: 'Yaldevi', sans-serif;
+    text-decoration: none;
+}
+
+.nav-links-margin{
+    margin: 0px;
+    margin-right: 100px;
+}
+
+.insta_links{
+    width: 192px;
+    height: 42px;
+    position: absolute; right: 0px; top: 30px;
+}
+
+.insta_img{
+    position: absolute; top: 1px;
+}
+
+.insta_link{
+    color: #FFB8B8;
+    font-size: 32px;
+    font-family: 'Yaldevi', sans-serif;
+    text-decoration: underline; 
+    margin-left: 45px;
+}
+
+.present_block{
+    width: 100%;
+    height: 1080px;
+    background-color: #1D1D1D;
+    border-top: 1px solid transparent;
+}
+
+.present_block-content{
+    width: 1721px;
+    height: 433px;
+    margin: 0%;
+    margin-top: 390px;
+    margin-left: auto; margin-right: auto;
+    position: relative;
+}
+
+.present_block-text{
+    display: inline-block;
+    width: 800px;
+    height: 375px;
+    margin: 0%;
+}
+
+.present_block-h1{
+    color: white;
+    font-size: 130px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0%;
+}
+
+.present_block-h2{
+    color: white;
+    font-size: 60px;
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: 0%;
+    margin-top: 40px;
+}
+
+.present-image{
+    position: absolute; right: 0%; top: -50px;
+}
+
+.menu_block{
+    width: 1500px;
+    min-height: 2291px;
+    margin: 0%;
+    margin-left: auto; margin-right: auto;
+    margin-top: 125px;
+    border-top: 1px solid transparent;
+}
+
+.menu_block-h1{
+    width: 500px;
+    display: block;
+    color: white;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 0%;
+    margin-left: auto; margin-right: auto;
+    margin-top: 50px;
+}
+
+.menu_links{
+    width: 1475px;
+    margin: 0%;
+    margin-left: auto; margin-right: auto;
+    text-align: center;
+}
+
+.btn{
+    background-color: rgba(217, 217, 217, 0);
+    border: none;
+    color: white;
+    font-size: 50px;
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 400;
+    margin: 0%;
+    margin-top: 55px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+.menu_links-button{
+    width: 274px;
+    height: 70px;
+    background-color: white;
+    border-radius: 7px;
+
+    color: black;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+#submit_6{
+    margin: 0%;
+}
+
+#submit_10{
+    margin: 0%;
+}
+
+#submit_12{
+    margin: 0%;
+}
+
+.cards{
+    width: 1514px;
+    margin-bottom: 150px;
+}
+
+.card{
+    display: inline-block;
+    width: 274px;
+    height: 390px;
+    text-align: center;
+    margin: 0%;
+    margin-top: 150px;
+    margin-left: 135px;
+}
+
+#card-antimargit_1{
+    margin-left: 0px;
+}
+
+#card-antimargit_5{
+    margin-left: 0px;
+}
+
+#card-antimargit_9{
+    margin-left: 0px;
+}
+
+.card-image{
+    border-radius: 7px;
+}
+
+.card-name{
+    display: block;
+    color: white;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 50px
+}
+
+.card-name-margin_1{
+    margin-top: 40px; 
+}
+
+.card-name-margin_2{
+    margin-top: 10px; 
+}
+
+.price{
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.price-margin_1{
+    margin-top: 40px; 
+}
+
+.price-margin_2{
+    margin-top: 20px; 
+}
+
+.card-button{
+    width: 274px;
+    height: 70px;
+    background-color: white;
+    border-radius: 7px;
+
+    color: black;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.map_block{
+    width: 100%;
+    height: 1450px;
+
+    background-color: #1D1D1D;
+    margin-top: 150px;
+    border-top: 1px solid transparent;
+}
+
+.map-block_content{
+    width: 1500px;
+    height: 1170px;
+
+    margin: 0%;
+    margin-top: 150px;
+    margin-left: auto; margin-right: auto;
+}
+
+.map-h1{
+    width: 250px;
+    display: block;
+    color: white;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 0%;
+    margin-left: auto; margin-right: auto;
+    margin-top: 50px;
+}
+
+.map-link{
+    width: 752px;
+    display: block;
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 0%;
+    margin-left: auto; margin-right: auto;
+    margin-top: 100px;
+}
+
+.map{
+    display: block;
+    width: 1100px;
+    height: 550px;
+    margin: 0%;
+    margin-top: 50px;
+    margin-left: auto; margin-right: auto;
+}
+
+.map-img{
+    width: 1100px;
+    height: 550px;
+}
+
+.map-info{
+    width: 1010px;
+    display: block;
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0%;
+    margin-left: auto; margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
